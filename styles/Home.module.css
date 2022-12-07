@@ -1,0 +1,107 @@
+.main {
+  min-width: 90vw;
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: 150vh;
+  background-position: right;
+}
+
+.gradient {
+  min-height: 100vh;
+  min-width: 90vw;
+  background-image: linear-gradient(to right, var(--bright) 25%, transparent 75%);
+}
+
+.title {
+  width: 32vw;
+  font-size: 3.2rem;
+}
+
+.title a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.ctaSection {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 2em 5.2em;
+}
+
+.ctaBtn {
+  padding: 1.2em 2em;
+  border-radius: 2em;
+  background-color: var(--red);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ctaBtn:hover {
+  background-color: var(--darker-red);
+}
+
+.ctdSection a {
+  position: absolute;
+  top: 90vh;
+  left: 45.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: .1em;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.ctdSection a *:last-child {
+  font-size: 2em;
+}
+
+.description {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bright);
+}
+
+.topDesc {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  padding: 8em 0;
+}
+
+.descBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 0 3.2em; 
+  border-right: .1em solid black;
+}
+
+.descBox:last-child {
+  border: none;
+}
+
+.descBox * {
+  margin: .32em 0;
+  text-align: center;
+}
+
+.descBox *:first-child {
+  font-size: 4em;
+  color: var(--red);
+}
